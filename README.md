@@ -2,6 +2,12 @@ https://ollama.com/library/translategemma
 
 Simple CLI wrapper around Ollama's `translategemma` model using the OpenAI Python client.
 
+Install with `uv`:
+
+```bash
+uv tool install git+https://github.com/diversen/gemma-translate
+```
+
 Usage:
 
 ```bash
