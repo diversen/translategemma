@@ -1,5 +1,5 @@
 [project]
-name = "gemma-translate"
+name = "translategemma"
 version = "0.1.0"
 description = "CLI wrapper around Ollama TranslateGemma via the OpenAI client"
 readme = "README.md"

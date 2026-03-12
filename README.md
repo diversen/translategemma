@@ -5,8 +5,10 @@ Simple CLI wrapper around Ollama's `translategemma` model using the OpenAI Pytho
 Install with `uv`:
 
 ```bash
-uv tool install git+https://github.com/diversen/gemma-translate
+uv tool install git+https://github.com/diversen/translategemma
 ```
+
+This installs the `translategemma` package and exposes the `gemma-translate` command.
 
 Usage:
 
