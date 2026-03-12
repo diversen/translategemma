@@ -9,4 +9,4 @@ dependencies = [
 ]
 
 [project.scripts]
-gemma-translate = "main:main"
+translategemma = "main:main"

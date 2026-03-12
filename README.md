@@ -13,8 +13,8 @@ This installs the `translategemma` package and exposes the `gemma-translate` com
 Usage:
 
 ```bash
-gemma-translate --from en --to da "text to translate"
-gemma-translate --from en --to da ./input.txt
+translategemma --from en --to da "text to translate"
+translategemma --from en --to da ./input.txt
 ```
 
 Defaults:
@@ -26,5 +26,5 @@ Defaults:
 Override the model with:
 
 ```bash
-gemma-translate --from en --to da --model translategemma:latest "Hello world"
+translategemma --from en --to da --model translategemma:latest "Hello world"
 ```

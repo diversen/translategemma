@@ -15,7 +15,7 @@ DEFAULT_API_KEY = "ollama"
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="gemma-translate",
+        prog="translategemma",
         description="Translate text or a file with TranslateGemma served by Ollama.",
     )
     parser.add_argument(
